@@ -1,0 +1,16 @@
+P,span,footer{
+    border: 12px solid black;
+}
+/*  for selecting a class .is used */
+.greenElement{
+    color: green;
+}
+/* for a id # is used */
+#secondPara{
+    color:gold;
+    background-color: green;
+}
+/* Grouping selector */
+footer,span{
+    background-color: chocolate;
+}
