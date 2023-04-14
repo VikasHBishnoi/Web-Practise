@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+</head>
+<body>
+    <div class="container">
+        This is a container
+    </div>
+    <script>
+        console.log("This is date and time tutorial");
+
+        let currentdate= new Date();
+        console.log(currentdate);
+
+        let referencedt= new Date(0);
+        console.log(referencedt);
+
+        let timeacctoref=new Date(1000000);
+        // 1000000 is in millisecond
+        console.log(timeacctoref);
+
+        // let newDate= new Date("2019-09-4");
+        // console.log(newDate);
+        // let newDateq=new Date(year,month,date,hourse,minues,seconds,milliseconds);
+
+        let newDate= new Date(2023,4,10,4,45,10,100);
+        console.log(newDate);
+
+        let yr=newDate.getFullYear();
+        let dt=newDate.getDate();
+        console.log("They year in which u get inernship and placement "+yr+" The date would be "+dt);
+    </script>
+</body>
+</html>
