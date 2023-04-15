@@ -1,0 +1,17 @@
+.navbar{
+    background-color:rgb(244, 201, 10);
+    border-radius: 35px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 20px 5px;
+}
+.navbar li a{
+    padding: 10px 15px;
+    text-decoration: none;
+
+}

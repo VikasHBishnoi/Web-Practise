@@ -4,6 +4,7 @@
     border: 10px solid rgba(170, 240, 8, 0.63);
     margin: 50px;
     padding: 20px; 
+    background-color: sandybrown;
     margin:auto;
 }
 .item{
@@ -20,8 +21,14 @@
 
 }
 #Stationary{
-    float: left;
+    /* float: left; */
     width: 800px;
     margin: auto;
     clear: both;
+}
+p,h1,h3{
+    text-align: center;
+
+    /* Justify means fit means it shape should be exactly at start left and end at last no space and start and end of line*/
+    /* text-align: justify; */
 }
