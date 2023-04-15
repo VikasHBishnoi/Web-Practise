@@ -1,5 +1,5 @@
-P,span,footer{
-    border: 12px solid black;
+h3 P,span,footer{
+    border: 12px solid rgb(242, 79, 79);
 }
 /*  for selecting a class .is used */
 .greenElement{
@@ -7,10 +7,13 @@ P,span,footer{
 }
 /* for a id # is used */
 #secondPara{
-    color:gold;
-    background-color: green;
+    color:rgb(10, 196, 233);
+    background-color: rgb(12, 14, 12);
 }
 /* Grouping selector */
 footer,span{
     background-color: chocolate;
+}
+div p,div p span{
+    background-color: yellowgreen;
 }

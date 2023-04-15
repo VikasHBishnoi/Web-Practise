@@ -1,0 +1,14 @@
+#firstPara{
+    color: aqua; /* Color by name */
+    background-color: black;
+    border-style: solid;
+    border-color: gold;
+}
+
+#secondPara{
+    color: rgba(8, 140, 248, 0.562);
+}
+
+#thirdPara{
+    color: #4ae815  /* rgb and hex color both can be used they do same work*/
+}
