@@ -1,0 +1,35 @@
+/* Css Position :static(default),relative,absoulute, fixed, sticky */
+.container{
+    border: 2px solid yellow;
+    height: 3444px;
+}
+.box{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 300px 30px;
+}
+#box3{
+    /* Relative to its normal position */
+    /* position: relative; */
+    /* top: 30px; */
+    /* left: 40px; */
+
+    /*  With respect to its parent*/
+    /* position:absolute;
+    top:34px;
+    left:15px; */
+
+    /* Fixed postion even when u scroll postion  will be fixed this below will fixed at blow location */
+    /* position:fixed;
+    right: 10px;
+    bottom: 10px; */
+
+
+    /* here it will stick when distace between top of screen view and box is less than 10px or left less than 15 px */
+    position:sticky;
+    top:10px;
+    left:15px;
+
+}
