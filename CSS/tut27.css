@@ -1,0 +1,34 @@
+.box{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: green;
+    position: relative;
+    top:49px;
+    left:35px;
+    z-index: 35;
+}
+#box2{
+    /* it will not be visible box but it will take space */
+    /* visibility: hidden; */
+
+    /*Here it will not visible and hide the space  */
+    /* display: none; */
+
+    position: relative;
+    top:20px;
+    left:15px;
+
+    /* z-index only works for relative position */
+    z-index: 34;
+    background-color: gold;
+}
+#box3{
+    position: relative;
+    background-color: blue;
+}
+#box4{
+    background-color: pink;
+}

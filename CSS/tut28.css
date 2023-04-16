@@ -1,0 +1,65 @@
+.container{
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+
+    /* Intilizing as flex box */
+    display: flex;
+
+    /* Flex properties for flex container */
+    /* By defualt it is always row */
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* short hand */
+    /* flex-flow: row-reverse wrap; */
+
+    /* justify-content: center;  */
+    /* justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;  */
+
+    /*  By default*/
+    align-items: flex-start;
+    /* align-items:center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+}
+.items{
+    background-color: tomato;
+    border: 2px solid rgb(43, 24, 183);
+    margin: 15px;
+    padding: 3px;
+    width: 150px;
+    height: 100px;
+}
+#item-1{
+    /* Flex propeties for flex items */
+    /* by default order is 0 */
+    /* last will be whose order is higest */
+    /* order:2; */
+
+    /* Flex gro */
+    /* cann't be negative */
+    /* Higher the no. Higher will growth when there is space to grow  */
+    /* flex-grow: 3; */
+
+    flex-shrink: 3;
+}
+#item-2{
+    /* order:-2; */
+    /* flex-grow: 1; */
+
+    flex-shrink: 5;
+}
+#item-3{
+    /* order:-1; */
+}
+#item-4{
+    /* order:-100; */
+}
