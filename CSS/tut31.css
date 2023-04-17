@@ -1,0 +1,35 @@
+h1{
+    background-color: rebeccapurple;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+div p{
+    color: yellow;
+    font-weight: bold;
+    /* div p  between div and p even if there in between somether thing still works*/ 
+    font-size: 2em;
+}
+/* div li p{
+    color: gray;
+    font-weight: bold;
+    /* div p  between div and p even if there in between somether thing still works*/ 
+    /* font-size: 2em;
+} */
+div  > p{
+    color: red;
+    font-weight: bold;
+    /* div > p  only those p whose father is div*/ 
+    font-size: 2em;
+}
+div + p{
+    /* Those p whose previous sibiling is div */
+    color: aquamarine;
+}
+div >ul+ p{
+    /* Those p whose previous sibiling is ul and parent is div */
+    color: red;
+}

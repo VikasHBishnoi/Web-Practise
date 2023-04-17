@@ -1,0 +1,37 @@
+.container{
+    display: block;
+    width: 153px;
+    margin: auto;
+}
+input{
+    display: block;
+}
+input[type]{
+    padding: 15px;
+    border: 2px solid rgb(245, 136, 11);
+}
+input[type='text']{
+    padding: 23px;
+    border: 2px solid red;
+}
+a[target]{
+    color: violet;
+}
+a[target='_self']{
+    color: green;
+}
+/* Only at 3 rd  child will be apply*/
+li:nth-child(3){
+    border: 2px solid aqua;
+}
+/* Every even element will appply */
+li:nth-child(2n+0){
+    border: 2px solid green;
+}
+/* Or */
+li:nth-child(even){
+    border: 2px solid rgb(23, 113, 240);
+}
+li:nth-child(odd){
+    border: 2px solid rgb(240, 222, 23);
+}

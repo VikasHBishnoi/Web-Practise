@@ -1,0 +1,27 @@
+/* body{
+    background-color: gainsboro;
+} */
+html{
+    font-size: 25px;
+}
+.container{
+    /* display: flex; */
+
+    /* By default font size of div is 16px */
+    font-size: 10px;
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+    background-color: gainsboro;
+    text-align: center;
+}
+#first{
+    font-size: 3em;
+
+    /* Here Font-size of first*3 */
+    /* padding: 3em; */
+}
+#second{
+    font-size: 3rem;
+    /* padding: 3rem; */
+}
