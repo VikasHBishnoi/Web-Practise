@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    background-color: yellow;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+
+}
+.box{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: vikasSecondWay;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+    /* After Completing all iteration it will stop at its destiination */
+    /* animation-fill-mode: forwards; */
+
+    /* For same */
+    /* animation-fill-mode: alternate; */
+    /* Start slow and end fast */
+    /* animation-timing-function: ease-in; */
+
+    /* Start fast */
+    /* animation-timing-function: ease-out;
+    animation-direction:alternate; */
+
+    /* Shortand */
+    /* animation: animation-name animation-duration animation-tim-fucntuin animatin delay animation-iteration-count animation-fill-mode */
+}
+@keyframes vikasSecondWay {
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top:250px;
+        left:0px;
+    }
+    50%{
+        top:250px;
+        left:250px;
+    }
+    75%{
+        top:0px;
+        left:250px;
+    }
+    100%{
+        top:0px;
+        left:0px;
+    }
+    
+}
+@keyframes vikas {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 1400px;
+    }
+}

@@ -1,0 +1,21 @@
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    justify-content: center;
+    align-items:center;
+    /* transition-property: background-color;
+    transition-duration: 1s;*/
+    /* easy at in matlab start me easy karo */
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 4s; */
+    /* transition: background-color 1s ease-in 4s; */
+    transition: all 1s ease-in 0.4s;
+}
+#box:hover{
+    height: 100px;
+    width: 400px;
+    font-size: 35px;
+    background-color: green;
+}

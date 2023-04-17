@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+}
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    background-color: wheat;
+    /* border: 2px solid red; */
+    
+    /* First value is for horizontal and second for vertical*/
+    /* 10 px  below is blurr radius */
+    /* box-shadow: -20px -2px 10px green; */
+    /* 15 is spread radius */
+    /* box-shadow: -20px -2px 10px 15px green; */
+
+
+    /* box-shadow: inset -50px 4px green; */
+
+}
+.card h1{
+    text-shadow: 0.5px 1px white;
+}
