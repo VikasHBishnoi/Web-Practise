@@ -3,7 +3,8 @@ console.log("Hello");
 function greet(name){
     let name1="name1";
     console.log(name+"is a iiitian\n\n");
-    console.log(name1+"They all are pro coders\n\n");
+    name="Hello "
+    console.log(name+"They all are pro coders\n\n");
 }
 let name1="Vikas";
 let name2='sunil';
@@ -21,7 +22,7 @@ greet(name5);
 greet(name6);
 greet(name7);
 greet(name8);
-
+console.log(name1);
 function sum(a,b,c){
     let d=a+b+c;
     return d;

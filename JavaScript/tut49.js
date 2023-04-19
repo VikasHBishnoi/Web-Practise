@@ -7,7 +7,8 @@ console.log(firstname + "  " + lastname +" " + message);
 console.log(sentance);
 // $ use to refere that data
 var len = firstname.length;
-console.log("Length of first name " + len);
+var h="ff"
+console.log("Length of first name " + len+" "+h);
 
 // if we want that script is added at head section
 // document.addEventListener('DOMContentLoaded', function() {
