@@ -36,32 +36,7 @@
     </div>
 
     <button id="btn" onclick="togglehide()">show hide</button>
-
-    <script>
-        function togglehide(){
-            let btn =document.getElementById('btn');
-            let firstpara =document.getElementById('firstpara');
-
-            
-            firstpara.addEventListener('mouseover',function run(){
-                console.log("Mouse inside para");
-            })
-            firstpara.addEventListener('mouseout',function run(){
-                console.log("Mouse outside para");
-            })
-
-
-            if(firstpara.style.display !='none'){
-                firstpara.style.display='none';
-            }
-            else{
-                firstpara.style.display="block";
-            }
-            firstpara.style.display;
-            
-        }
-    </script>
-
+    <script src="tut57.js"></script>
     
 </body>
 </html>
